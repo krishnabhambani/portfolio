@@ -62,7 +62,7 @@ function App() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <img
-                src="kb.png"
+                src="public/kb.png"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
@@ -265,7 +265,7 @@ function App() {
               {
                 title: "Personal Portfolio",
                 description: "Responsive landing page showcasing photographer's work",
-                image: "src/pp.png",
+                image: "public/pp.png",
                 tech: ["ReactJS", "TailwindCSS", "JavaScript","Framers"]
               }
             ].map((project, index) => (
@@ -325,21 +325,21 @@ function App() {
                 degree: "Bachelor of Technology in Computer Science and Engineering",
                 year: "2022 - Present",
                 score: "CGPA: 8.88",
-                image: "src/vit.jpg"
+                image: "public/vit.jpg"
               },
               {
                 school: "Bethel Academy",
                 degree: "Senior Secondary | CBSE Board",
                 year: "2022",
                 score: "Percentage: 84%",
-                image: "src/Bethel.jpg"
+                image: "public/Bethel.jpg"
               },
               {
                 school: "Khelgaon Public School",
                 degree: "High School | CBSE Board",
                 year: "2020",
                 score: "Percentage: 85%",
-                image: "src/kps.jpg"
+                image: "public/kps.jpg"
               }
             ].map((edu, index) => (
               <motion.div
